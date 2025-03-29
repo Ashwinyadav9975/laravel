@@ -1,0 +1,61 @@
+
+body {
+    background: url('/image/image1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+    .card {
+        background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+        backdrop-filter: blur(10px); /* Glassmorphism effect */
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .card-header h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .form-control, .form-select {
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        color: white;
+    }
+
+    .form-control::placeholder, .form-select {
+        color: rgba(14, 11, 11, 0.7);
+    }
+
+    .form-control:focus, .form-select:focus {
+        background: #e8f0fe;
+        box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-secondary {
+        background: rgba(255, 255, 255, 0.3);
+        border: none;
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.5);
+        color: black;
+    }
+
+    p, label {
+        color: rgb(15, 14, 14);
+    }
+
+    a {
+        color: #FFD700; /* Gold color for better visibility */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    
